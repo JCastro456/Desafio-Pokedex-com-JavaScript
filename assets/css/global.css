@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box ;
+}
+
+#logo{
+    height: 70px;    
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#pesquisa {
+    border-radius: 1rem;
+    margin-left: 50px; 
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+#botao{
+    border-radius: 1rem;    
+    margin-bottom: 10px; 
+    cursor: pointer;     
+}
+
+#botao:hover{
+    background-color: #fff;
+    color: #FA5858; 
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+    
+}
+
+@media screen and (min-width: 992px){
+    .content {
+        max-width: 992px;
+        height: auto ;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        
+    }
+}
